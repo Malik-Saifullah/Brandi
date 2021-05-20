@@ -1,0 +1,24 @@
+@import "./variables.scss";
+
+@mixin title {
+    color: $titleColor;
+    font-size: $fontSizeLarge;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+@mixin absoluteCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin absoluteRound {
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
